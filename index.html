@@ -137,18 +137,64 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
      <!-- Your audio here -->
+        <table align="left" id="myTable">
+  <tr> 
+     <th align="center" >Input</th> 
+</tr>
+  <tr>
+  <td> <audio controls unmuted><source src="static/AudioH/inp.wav" type="audio/wav"> </audio></td>
+    </tr>
+</table>
    <table align="left" id="myTable">
   <tr> 
-            <th align="center" >Input</th> 
-            <th align="center" >Target</th> 
-            <th align="center" >Prediction</th> 
+            <th align="center" >Targets (Compressor)</th> 
+            <th align="center" >Targets (Tape Delay)</th> 
+            <th align="center" >Targets (Preampflier)</th> 
     </tr> 
 <tr>
-         <td> <audio controls unmuted><source src="static/AudioH/inp.wav" type="audio/wav"> </audio></td>
+         <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
 <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
-  <td> <audio controls unmuted><source src="static/AudioH/TP_pred.wav" type="audio/wav"> </audio></td>
+  <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
 </tr>
 </table>
+      <table align="left" id="myTable">
+  <tr> 
+            <th align="center" >Prediciton C model</th> 
+            <th align="center" >Prediciton T model</th> 
+            <th align="center" >Prediciton P model </th> 
+    </tr> 
+<tr>
+         <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+<td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+  <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+</tr>
+</table>
+      <table align="left" id="myTable">
+  <tr> 
+            <th align="center" >Prediciton CP model (as C)</th> 
+            <th align="center" >Prediciton CT model (as T)</th> 
+            <th align="center" >Prediciton TP model (as P)</th> 
+    </tr> 
+<tr>
+         <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+<td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+  <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+</tr>
+</table>
+      <table align="left" id="myTable">
+  <tr> 
+            <th align="center" >Prediciton CTP model (as C)</th> 
+            <th align="center" >Prediciton CTP model (as T)</th> 
+            <th align="center" >Prediciton CTP model (as P)</th> 
+    </tr> 
+<tr>
+         <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+<td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+  <td> <audio controls unmuted><source src="static/AudioH/targets.wav" type="audio/wav"> </audio></td>
+</tr>
+</table>
+      
+      
     </div>
   </div>
  </section> 
