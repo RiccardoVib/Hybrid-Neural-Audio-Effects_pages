@@ -123,7 +123,7 @@
         <div class="columns is-centered has-text-centered">
     <div class="container">
   <h2 class="title is-3">Audio Examples</h2>
-<img src="static/images/DelaySTFT.png" alt="STFT" width="900"  height="900" class="center">
+<img src="static/images/DelaySTFT.png" alt="STFT" width="1500"  height="1500" class="center">
         <p>Normalized spectrograms of 5 seconds included in the test sets. Targets (top) against C (left), T (middle), and P
 (right) models, and against CT, TP, CP, and CTP models conditioned as C, as T, and as P, respectively.
            </p>
@@ -214,6 +214,48 @@
      height="300" >
         <p>Waveforms and spectrograms (normalized) of 20 seconds included in the test sets, resulted from the CP (left), CT
 (middle), and TP (right) models when the parameter is 0.5.
+           </p>
+      </div>
+    </div>
+  </div>
+ </section>
+  
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <table align="left" id="myTable">
+  <tr> 
+     <th align="center" >Input</th> 
+      <td> <audio controls unmuted><source src="static/AudioH/inp.wav" type="audio/wav"> </audio></td>
+</tr>
+    <tr>  
+     <th align="center" >Prediction CT</th> 
+    <th align="center" >Prediction CP</th> 
+    <th align="center" >Prediction TP</th> 
+</tr>
+  <tr>
+    <td> <audio controls unmuted><source src="static/AudioH/CT_05_example.wav" type="audio/wav"> </audio></td>
+    <td> <audio controls unmuted><source src="static/AudioH/CP_05_example.wav" type="audio/wav"> </audio></td>
+    <td> <audio controls unmuted><source src="static/AudioH/TP_05_example.wav" type="audio/wav"> </audio></td>
+    </tr>
+</table>
+      </div>
+    </div>
+ </section>
+
+
+  <section class="hero is-small is-light">
+       <div class="columns is-centered has-text-centered">
+  <div class="hero-body">
+    <div class="container">
+<img src="static/images/EDCL1BPreampInterpolationD1constplot.png" alt="EDCL1BPreampInterpolationD1sineplot"  width="400" 
+     height="300">
+    <img src="static/images/EDCL1BTapeInterpolationD1constplot.png" alt="EDCL1BTapeInterpolationD1sineplot"  width="400" 
+     height="300" >
+    <img src="static/images/EDTapePreampInterpolationD1constplot.png" alt="EDTapePreampInterpolationD1sineplot"  width="400" 
+     height="300" >
+        <p>Normalized spectrograms of a 20 second signal resulted from the CP (left), CT (middle), and TP (right) models
+when the parameter is continuously changed by modulating it using a sine wave at 0.05 Hz.
            </p>
       </div>
     </div>
